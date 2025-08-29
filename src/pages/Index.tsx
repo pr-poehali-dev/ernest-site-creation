@@ -8,7 +8,7 @@ const Index = () => {
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-white/90 backdrop-blur-sm border-b border-gray-100 z-50">
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-          <div className="text-2xl font-bold">ERNEST DESIGN</div>
+          <div className="text-2xl font-bold">IMAGINE DRAGON</div>
           <div className="hidden md:flex space-x-8">
             <a href="#home" className="hover:opacity-60 transition-opacity">Главная</a>
             <a href="#portfolio" className="hover:opacity-60 transition-opacity">Портфолио</a>
@@ -27,12 +27,12 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-6xl md:text-8xl font-bold mb-8 leading-tight">
-              CREATIVE<br />
-              <span className="text-gray-500">DESIGN</span><br />
-              STUDIO
+              IMAGINE<br />
+              <span className="text-gray-500">DRAGON</span><br />
+              GRAPHICS
             </h1>
             <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto">
-              Создаем уникальные дизайн-решения для брендов, которые хотят выделиться и запомниться
+              Create a style — Создаем стильную графику и визуальные решения для вашего бренда
             </p>
             <Button size="lg" className="bg-black text-white hover:bg-gray-800 px-8 py-4 text-lg">
               Посмотреть работы
@@ -44,7 +44,7 @@ const Index = () => {
       {/* Portfolio Section */}
       <section id="portfolio" className="py-20 px-6 bg-gray-50">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-16">НАШИ РАБОТЫ</h2>
+          <h2 className="text-4xl font-bold text-center mb-16">ПОРТФОЛИО</h2>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card className="group cursor-pointer overflow-hidden border-0 shadow-none">
@@ -57,8 +57,8 @@ const Index = () => {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-2">Web Design</h3>
-                  <p className="text-gray-600">Современный дизайн корпоративного сайта</p>
+                  <h3 className="text-xl font-semibold mb-2">Графический дизайн</h3>
+                  <p className="text-gray-600">Корпоративная айдентика и визуальный стиль</p>
                 </div>
               </CardContent>
             </Card>
@@ -73,8 +73,8 @@ const Index = () => {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-2">Branding</h3>
-                  <p className="text-gray-600">Комплексная разработка фирменного стиля</p>
+                  <h3 className="text-xl font-semibold mb-2">Логотипы</h3>
+                  <p className="text-gray-600">Создание запоминающихся логотипов и символов</p>
                 </div>
               </CardContent>
             </Card>
@@ -89,8 +89,8 @@ const Index = () => {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-2">UI/UX Design</h3>
-                  <p className="text-gray-600">Интерфейс мобильного приложения</p>
+                  <h3 className="text-xl font-semibold mb-2">Иллюстрации</h3>
+                  <p className="text-gray-600">Авторские иллюстрации и графические элементы</p>
                 </div>
               </CardContent>
             </Card>
@@ -114,32 +114,32 @@ const Index = () => {
               <div className="w-20 h-20 mx-auto mb-6 bg-black rounded-full flex items-center justify-center group-hover:bg-gray-800 transition-colors">
                 <Icon name="Palette" size={32} className="text-white" />
               </div>
-              <h3 className="text-xl font-semibold mb-4">Брендинг</h3>
-              <p className="text-gray-600">Создание уникального фирменного стиля и логотипов</p>
+              <h3 className="text-xl font-semibold mb-4">Графический дизайн</h3>
+              <p className="text-gray-600">Создание визуальных концепций и графических решений</p>
             </div>
 
             <div className="text-center group">
               <div className="w-20 h-20 mx-auto mb-6 bg-black rounded-full flex items-center justify-center group-hover:bg-gray-800 transition-colors">
                 <Icon name="Monitor" size={32} className="text-white" />
               </div>
-              <h3 className="text-xl font-semibold mb-4">Web Design</h3>
-              <p className="text-gray-600">Дизайн современных и функциональных веб-сайтов</p>
+              <h3 className="text-xl font-semibold mb-4">Логотипы и фирстиль</h3>
+              <p className="text-gray-600">Разработка логотипов и комплексного фирменного стиля</p>
             </div>
 
             <div className="text-center group">
               <div className="w-20 h-20 mx-auto mb-6 bg-black rounded-full flex items-center justify-center group-hover:bg-gray-800 transition-colors">
                 <Icon name="Smartphone" size={32} className="text-white" />
               </div>
-              <h3 className="text-xl font-semibold mb-4">UI/UX</h3>
-              <p className="text-gray-600">Разработка интерфейсов мобильных приложений</p>
+              <h3 className="text-xl font-semibold mb-4">Иллюстрации</h3>
+              <p className="text-gray-600">Авторские иллюстрации для рекламы и медиа</p>
             </div>
 
             <div className="text-center group">
               <div className="w-20 h-20 mx-auto mb-6 bg-black rounded-full flex items-center justify-center group-hover:bg-gray-800 transition-colors">
                 <Icon name="FileText" size={32} className="text-white" />
               </div>
-              <h3 className="text-xl font-semibold mb-4">Полиграфия</h3>
-              <p className="text-gray-600">Дизайн печатной продукции и рекламных материалов</p>
+              <h3 className="text-xl font-semibold mb-4">Социальные сети</h3>
+              <p className="text-gray-600">Оформление постов, сторис и обложек для соцсетей</p>
             </div>
           </div>
         </div>
@@ -152,12 +152,12 @@ const Index = () => {
             <div>
               <h2 className="text-4xl font-bold mb-8">О СТУДИИ</h2>
               <p className="text-lg text-gray-600 mb-6">
-                Ernest Design — это креативная студия, специализирующаяся на создании 
-                выдающихся дизайн-решений для современных брендов.
+                Imagine Dragon — это графическая студия, которая создает стиль 
+                и помогает брендам выражать свою индивидуальность через визуальные решения.
               </p>
               <p className="text-lg text-gray-600 mb-8">
-                Мы верим, что хороший дизайн способен изменить восприятие бренда 
-                и создать эмоциональную связь с аудиторией.
+                Наш девиз "Create a style" отражает нашу миссию — создавать уникальные 
+                визуальные стили, которые запоминаются и вдохновляют.
               </p>
               <div className="grid grid-cols-3 gap-8 text-center">
                 <div>
@@ -193,7 +193,7 @@ const Index = () => {
                 <Icon name="Mail" size={24} className="text-white" />
               </div>
               <h3 className="font-semibold mb-2">Email</h3>
-              <p className="text-gray-600">hello@ernestdesign.ru</p>
+              <p className="text-gray-600">hello@imaginedragon.ru</p>
             </div>
             
             <div className="text-center">
@@ -222,7 +222,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="py-8 px-6 border-t border-gray-200">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <div className="text-2xl font-bold">ERNEST DESIGN</div>
+          <div className="text-2xl font-bold">IMAGINE DRAGON</div>
           <div className="flex space-x-6">
             <Icon name="Instagram" size={24} className="text-gray-600 hover:text-black cursor-pointer" />
             <Icon name="Facebook" size={24} className="text-gray-600 hover:text-black cursor-pointer" />
