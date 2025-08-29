@@ -193,15 +193,15 @@ const Index = () => {
                 <Icon name="Mail" size={24} className="text-white" />
               </div>
               <h3 className="font-semibold mb-2">Email</h3>
-              <p className="text-gray-600">hello@imaginedragon.ru</p>
+              <p className="text-gray-600">mr.indeets@gmail.com</p>
             </div>
             
             <div className="text-center">
               <div className="w-16 h-16 mx-auto mb-4 bg-black rounded-full flex items-center justify-center">
-                <Icon name="Phone" size={24} className="text-white" />
+                <Icon name="Send" size={24} className="text-white" />
               </div>
-              <h3 className="font-semibold mb-2">Телефон</h3>
-              <p className="text-gray-600">+7 (999) 123-45-67</p>
+              <h3 className="font-semibold mb-2">Telegram</h3>
+              <a href="https://t.me/ImageDragon" className="text-gray-600 hover:text-black transition-colors">@ImageDragon</a>
             </div>
             
             <div className="text-center">
@@ -209,7 +209,7 @@ const Index = () => {
                 <Icon name="MapPin" size={24} className="text-white" />
               </div>
               <h3 className="font-semibold mb-2">Адрес</h3>
-              <p className="text-gray-600">Москва, Россия</p>
+              <p className="text-gray-600">Воронеж, Россия</p>
             </div>
           </div>
           
