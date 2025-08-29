@@ -221,13 +221,8 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="py-8 px-6 border-t border-gray-200">
-        <div className="max-w-7xl mx-auto flex justify-between items-center">
+        <div className="max-w-7xl mx-auto flex justify-center items-center">
           <div className="text-2xl font-bold">IMAGINE DRAGON</div>
-          <div className="flex space-x-6">
-            <Icon name="Instagram" size={24} className="text-gray-600 hover:text-black cursor-pointer" />
-            <Icon name="Facebook" size={24} className="text-gray-600 hover:text-black cursor-pointer" />
-            <Icon name="Linkedin" size={24} className="text-gray-600 hover:text-black cursor-pointer" />
-          </div>
         </div>
       </footer>
     </div>
