@@ -213,7 +213,11 @@ const Index = () => {
             </div>
           </div>
           
-          <Button size="lg" className="bg-black text-white hover:bg-gray-800 px-12 py-4 text-lg">
+          <Button 
+            size="lg" 
+            className="bg-black text-white hover:bg-gray-800 px-12 py-4 text-lg"
+            onClick={() => window.open('https://t.me/IMGN_drago', '_blank')}
+          >
             Обсудить проект
           </Button>
         </div>
